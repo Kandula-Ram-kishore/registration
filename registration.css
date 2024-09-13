@@ -1,0 +1,107 @@
+body {
+    background-color: #181818;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: aqua;
+    background-image:url("https://th.bing.com/th/id/R.057b31be70cc73b9d0c829205f90e02f?rik=PxrTE7PkNVZoRg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-nature-backgrounds-hd-resolution-1920x1080.jpg&ehk=hQzPW7PZMRmNSlTgkm1V0lR4FopZ7yGKJtUMRedf8wM%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 40px;
+    width: 80%;
+    max-width: 800px;
+    
+}
+
+.left {
+    width: 50%;
+    padding: 20px;
+}
+
+.right {
+    width: 50%;
+    background-color: #ffffff; /* Pink background */
+    background-image: url("./image.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #000000;
+    font-size: 50px;
+}
+
+.right img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight:none;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #6dbcd9; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #f05090; 
+}
+
+a {
+    color:red; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
